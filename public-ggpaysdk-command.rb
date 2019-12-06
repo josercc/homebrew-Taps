@@ -4,8 +4,8 @@
 class PublicGgpaysdkCommand < Formula
   desc "发布原生支付脚本"
   homepage ""
-  url "https://github.com/josercc/Public-GGPaySDK-Command/archive/0.1.2.tar.gz"
-  sha256 "ddd1b15837877ba2dd74fd8029f3d31a37c538d5852fa31a03144b8d13a46d18"
+  url "https://github.com/josercc/Public-GGPaySDK-Command/archive/0.1.3.tar.gz"
+  sha256 "6bfdce74bbae64d73bef4310ae8cd8b48a9d833917bcede5d9054a9e5247d53b"
 
   #depends_on "xcode" => ["11.0", :build]
 
