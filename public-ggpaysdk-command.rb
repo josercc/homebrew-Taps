@@ -8,9 +8,9 @@ class PublicGgpaysdkCommand < Formula
 
 #   depends_on :xcode => "11"
   stable do
-    version "0.1.3"
-    url "https://github.com/josercc/Public-GGPaySDK-Command/archive/0.1.3.tar.gz"
-    sha256 "6bfdce74bbae64d73bef4310ae8cd8b48a9d833917bcede5d9054a9e5247d53b"
+    version "0.1.4"
+    url "https://github.com/josercc/Public-GGPaySDK-Command/archive/0.1.4.tar.gz"
+    sha256 "cd109cb8ab5a7a0c9b8bd8597d3cf0434924d8ecc96c749e893e16212d941f87"
   end
   def install
     system "swift", "build", "--disable-sandbox"
