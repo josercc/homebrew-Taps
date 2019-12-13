@@ -11,7 +11,7 @@ class HelloWord < Formula
   stable do
     version "0.1.0"
     url "#{homepage}/archive/#{version}.tar.gz"
-    sha256 "90616f611757066819a41dc44d6351b1d583c644e41da1a2cffb37dc6b27c12d"
+    sha256 "938193af4bd4dfc494541fc7194136be57d25a2fd1cc36becb0b6b71429b09e3"
   end
   def install
     system "swift", "build", "--disable-sandbox"
