@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class HelloWord < Formula
+class Hellowordcommanderexample < Formula
 	desc "HelloWord演示程序"
 	homepage "https://github.com/JoseccExample/HelloWordCommanderExample"
 	head "https://github.com/JoseccExample/HelloWordCommanderExample.git"
