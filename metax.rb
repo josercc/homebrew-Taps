@@ -2,13 +2,13 @@
 class Metax < Formula
     desc "棉宇宙app开发工具"
     homepage "https://github.com/WinnerApp/metax"
-    url "https://appwrite.winnermedical.com/v1/storage/buckets/67dc1b1300345bcb40a3/files/68a5383a714169e69fee/download?project=677f626b0012252b422e&mode=admin"
-    sha256 "64a81e587a45012202d9e823d9007eceee3ba33500156fbfa9a0b70b45bb1870"
+    url "https://appwrite.winnermedical.com/v1/storage/buckets/67dc1b1300345bcb40a3/files/6900664a900e98c5a990/download?project=677f626b0012252b422e&mode=admin"
+    sha256 "7ffc62ff6dfe6da3648cf5b945ce65c62a5b5baee851fdd3804f687340e498b2"
     license "MIT"
-    version "0.0.70"
+    version "0.0.71"
   
     def install
-      File.rename("0.0.70-64a81e587a45012202d9e823d9007eceee3ba33500156fbfa9a0b70b45bb1870", "metax")
+      File.rename("0.0.71-7ffc62ff6dfe6da3648cf5b945ce65c62a5b5baee851fdd3804f687340e498b2", "metax")
       bin.install "metax"
     end
   
